@@ -1,0 +1,287 @@
+html {
+	max-height: 100%;
+	max-width: 90%;
+	box-sizing: border-box;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+body {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100%;
+	background-color: #efefef;
+}
+
+.titulo-seccion {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: uppercase;	
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.nombre {
+    font-size: 28px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.profesion {
+	color: #777;
+	font-size: 22px
+	font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+p {
+	font-size: 20px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+}
+.datos {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: white;
+    border-right: grey;
+    margin : 1px;
+
+}
+.personales {
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width:50%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-left: 0px;
+}
+.seccion-titulo {
+	border: 1px solid #efefef;
+	margin: 40px 10px 2px 40px;
+	position: absolute;
+ }
+ .sobre-mi, .estudios, .experiencia-laboral, .hobbies {
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ 	margin-left: 50px;
+ 	margin-right: 50px;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ .texto-hipervinculo {
+ 	font-weight: 700;
+ 	font-size: 12px;
+ 	line-height: 44px;
+ 	text-align: right;
+ 	text-transform: uppercase;
+ 	margin: 0px;
+}
+.item {
+	color: #26292e;
+	padding: 0px;
+	line-height: 44px;
+	background-color: #333;
+	display: inline-block;
+	width: 100%;
+	margin-right: 20px;
+}
+
+.item:hover {
+	background-color: yellow;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+.hipervinculo:hover .texto-hipervinculo {
+	color: white;
+}
+.menu {
+	max-width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+
+}
+.c-derecha {
+	background-color: white;
+	width: 60%;
+	float: right;
+	margin-right: 130px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-left: 0px;
+}
+.c-izquierda {
+	width: 20%;
+	height: 12%;
+	float: left;
+	background-color: white;
+	margin-left:70px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	margin-right: 10px;
+}
+
+.leer {
+	background-image: url("../images/leer.jpg");
+	width: 100%;
+	min-height: 140px;
+	width: 31%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+	background-position: 0;
+	background-size: cover;
+	font-family: Arial;
+	margin-bottom: 60px;
+	margin-top: 0px;
+}
+
+.reposteria {
+	background-image: url("../images/reposteria.jpg");
+	width: 100%;
+	min-height: 140px;
+	width: 31%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+	background-position: 0;
+	background-size: cover;
+	font-family: Arial;
+	margin-bottom: 60px;
+	margin-top: 0px;
+
+}
+
+.voley {
+	background-image: url("../images/voley.jpg"); 
+	width: 100%;
+	min-height: 140px;
+	width: 31%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+	background-position: 0;
+	background-size: cover;
+	font-family: Arial;
+	margin-bottom: 60px;
+	margin-top: 0px;
+
+}
+.hipervinculo .w-clearfix:before, .w-clearfix:after {
+    content: " ";
+    display: table;
+}
+.w-clearfix:after {
+    clear: both;
+}
+.icono.imagen-sobremi {
+	background-image: url("../images/sobre-mi-hover.png");
+}
+.icono.imagen-sobremi:hover {
+	background-image: url("../images/sobre-mi.png");
+}
+
+.icono {
+	width: 24px;
+	height: 24px;
+	float:left;
+	background-position: 0px 0px;
+	background-size: cover;
+	margin: 10px 20px;
+}
+.icono.imagen-experiencialaboral {
+	background-image: url("../images/experiencia-laboral-hover.png");
+}
+.icono.imagen-experiencialaboral:hover {
+	background-image: url("../images/experiencia-laboral.png");
+}
+.icono.imagen-educacion {
+	background-image: url("../images/educacion-hover.png");
+}
+.icono.imagen-educacion:hover {
+	background-image: url("../images/educacion.png");
+}
+.icono.imagen-hobbie {
+	background-image: url("../images/hobbie-hover.png");
+}
+.icono.imagen-hobbie:hover {
+	background-image: url("../images/hobbie.png");
+}
+.foto {
+	width: 100%;
+}
+ul {
+	margin: 0px;
+}
+.icono.imagen-facebook {
+	background-image: url("../images/redes-facebook-hover.png");
+} 
+.icono.imagen-twitter {
+	background-image: url("../images/redes-twitter-hover.png");
+}
+.lista1 {
+	width: 50%;
+	float: left;
+	border: 0px solid white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.lista2 {
+	width: 50%;
+	float: left;
+	border: 0px solid white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+ul li {
+	border-bottom: #efefef;
+	background-color: #efefef;
+}
+img {
+	width: 100%;
+}
+.linea {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 60px;
+	margin-top: 0px;
+	padding-right: 100px;
+	padding-left: 10px;
+	background-color: #fff;
+	margin-left: 20px;
+}
+h6 {
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+.texto-hobbie {
+	font-family: Arial;
+	color: black;
+	font-size: 12px;
+	display: inline-block;
+	width:70%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px
+}
